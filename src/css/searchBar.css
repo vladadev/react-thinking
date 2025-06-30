@@ -1,0 +1,8 @@
+#searchbar {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 16px;
+}
