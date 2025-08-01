@@ -4,8 +4,7 @@ import ProductCategoryRow from './ProductCategoryRow'
 import '../css/main.css'
 
 const ProductTable = ({products}) => {
-    const grouped = products.reduce((accumulator, currentProduct) => {
-
+  const grouped = products.reduce((accumulator, currentProduct) => {
     if (!accumulator[currentProduct.category]) {
       accumulator[currentProduct.category] = []
     }
